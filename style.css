@@ -1,0 +1,76 @@
+  body *{
+    font-family: 'Montserrat', sans-serif;
+    margin: 2px;
+  }
+
+  body{
+    margin: 72px 144px 0;
+  }
+
+  h1{
+    font-size: 44px;
+    margin-top: 60px;
+  }
+
+  #controls{
+    display: inline-block;
+    width: 50%;
+    border-right: 1px solid rgba(0,0,0, .5);
+    padding: 0 42px 42px 0px
+  }
+
+  .input-group{
+    margin: 26px 0;
+
+  }
+
+  label {
+    display: inline-block;
+    width: 24%;
+    font-weight: 300px;
+    font-size: 30px;
+    padding: 12px;
+  }
+
+  input{
+    width: 45%;
+    font-size: 30px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding-left:6px;
+    font-weight: 200;
+    outline: none;
+  }
+
+  input:disabled{
+    background-color: white;
+    opacity: .6;
+
+  }
+
+
+  button{
+    padding: 12px 60px;
+    background-color: #222;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+  }
+
+  button:hover{
+    opacity: 0.8;
+  }
+
+  button:disabled{
+    opacity: 0.2;
+  }
+
+  h2{
+    display: inline-block;
+    font-weight:200;
+    font-size: 140px;
+    margin:12px, 0;
+    padding-left: 100px;
+    vertical-align: top;
+  }
